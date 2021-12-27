@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn có muốn thoát ứng dụng không ?"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonYes"
+            android:layout_width="195dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/yes" />
+
+        <ImageButton
+            android:id="@+id/buttonNo"
+            android:layout_width="188dp"
+            android:layout_height="79dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/no" />
+    </LinearLayout>
+</LinearLayout>

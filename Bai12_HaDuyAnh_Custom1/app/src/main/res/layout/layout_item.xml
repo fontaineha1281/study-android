@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imagePhone"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/htc" />
+
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="297dp"
+        android:layout_height="74dp"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:text="Điện thoại Iphone" />
+</LinearLayout>
